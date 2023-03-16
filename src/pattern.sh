@@ -1,0 +1,1 @@
+# generate cursor pattern from rawsvg and patternconf

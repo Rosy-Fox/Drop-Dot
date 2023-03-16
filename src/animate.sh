@@ -1,0 +1,1 @@
+# generate animated cursor resource from pattern and animateconf
