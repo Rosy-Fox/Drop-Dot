@@ -1,0 +1,47 @@
+alias = circle ~> ( < 1 , -1 > <~ * <~ ( < 0.2 , 0.2 > <~ * <~ width ) <~ mov ) merge
+all-scroll = < circle , dot , arrow ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) merge > merge
+bottom_left_corner = 
+bottom_right_corner
+bottom_side
+cell
+center_ptr
+color-picker
+col-resize
+context-menu
+copy
+crosshair
+default
+dnd-move
+dnd-no-drop
+down-arrow
+draft
+fleur
+help
+left_side
+left-arrow
+no-drop
+not-allowed
+openhand
+pencil
+pirate
+pointer
+right_ptr
+right_side
+right-arrow
+row-resize
+size_bdiag
+size_fdiag
+size_hor
+size_ver
+text
+top_left_corner
+top_right_corner
+top_side
+up-arrow
+vertical-text
+wayland-cursor
+x-cursor
+zoom-in
+zoom-out
+progress
+wait
