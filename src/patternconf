@@ -1,12 +1,12 @@
 alias = circle ~> ( < 1 , -1 > <~ * <~ ( < 0.2 , 0.2 > <~ * <~ width ) <~ mov ) merge
-all-scroll = < circle , dot , arrow ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) merge > merge
-bottom_left_corner = 
-bottom_right_corner
-bottom_side
-cell
-center_ptr
-color-picker
-col-resize
+all-scroll = < dot @ 1 , arrow ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) merge @ 0 > merge
+bottom_left_corner = < dot @ 1 , arrow ( -135 deg rot ) @ 0 > merge
+bottom_right_corner = < dot @ 1 , arrow ( 135 deg rot ) @ 0 > merge
+bottom_side = < dot @ 1 , arrow ( 180 deg rot ) @ 0 > merge
+cell = < dot @ 0 , < circle , mask-quarter > mask ( < 0.2 , 0.2 > <~ * <~ width mov) ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) @ 1 > merge
+center_ptr = < dot @ 1 , circle @ 0 , arrow @ 0 > merge
+color-picker = < arrow ( -45 deg rot ) @ 1 , circle @ 0 , dot ( < 0.2 , -0.2 > <~ * <~ width mov ) @ 1 > merge
+col-resize = 
 context-menu
 copy
 crosshair
