@@ -8,8 +8,8 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="mask-quarter.svg"
-   inkscape:export-filename="../rawsvg/mask-quarter.svg"
+   sodipodi:docname="mask-band.svg"
+   inkscape:export-filename="../rawsvg/mask-band.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="25.9375"
-     inkscape:cx="16"
-     inkscape:cy="16"
+     inkscape:cx="14.477108"
+     inkscape:cy="12.722892"
      inkscape:window-width="1920"
      inkscape:window-height="1050"
      inkscape:window-x="0"
@@ -38,7 +38,7 @@
      inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
-       id="grid6" />
+       id="grid254" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -47,11 +47,11 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff"
-       id="rect110"
-       width="16"
-       height="16"
-       x="16"
+       style="fill:#ffffff;stroke-width:1.06904"
+       id="rect256"
+       width="4"
+       height="32"
+       x="14"
        y="0" />
   </g>
 </svg>
