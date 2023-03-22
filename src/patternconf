@@ -3,11 +3,11 @@ all-scroll = < dot @ 1 , arrow ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) merge
 bottom_left_corner = < dot @ 1 , arrow ( -135 deg rot ) @ 0 > merge
 bottom_right_corner = < dot @ 1 , arrow ( 135 deg rot ) @ 0 > merge
 bottom_side = < dot @ 1 , arrow ( 180 deg rot ) @ 0 > merge
-cell = < dot @ 0 , < circle , mask-quarter > mask ( < 0.2 , 0.2 > <~ * <~ width mov) ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) @ 1 > merge
+cell = < dot ( 0.2 scale ) @ 0 , < circle , mask-quarter > mask ( < 0.2 , 0.2 > <~ * <~ width mov) ~> ( < 0 , 90 , 180 , 270 > <~ deg <~ rot ) @ 1 > merge
 center_ptr = < dot @ 1 , circle @ 0 , arrow @ 0 > merge
 color-picker = < arrow ( -45 deg rot ) @ 1 , circle @ 0 , dot ( < 0.2 , -0.2 > <~ * <~ width mov ) @ 1 > merge
-col-resize = 
-context-menu
+col-resize = < dot ( 0.2 scale ) @ 0 , < circle , mask-band > mask @ 1 , arrow ~> ( < -90, 90 > <~ deg <~ rot ) merge @ 0 > merge
+context-menu = < circle , dot ( 0.1 scale ) ~> ( < 1 , 0 , -1 > <~ * <~ ( < 0.1 , 0 > <~ * <~ width ) <~ mov ) merge > merge
 copy
 crosshair
 default
